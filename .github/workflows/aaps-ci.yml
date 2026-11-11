@@ -6,7 +6,7 @@ on:
       buildVariant:
         description: 'Select Build Variant'
         required: true
-        default: 'fullRelease'
+        default:  'fullDebug'
         type: choice
         options:
           - fullRelease
